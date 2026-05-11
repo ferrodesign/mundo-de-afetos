@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mundo de Afetos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="top"></div>
+
+    <!-- topbar -->
+    <header class="topbar">
+      <div class="container">
+        <a href="index.html#top" class="brand">
+          <img src="assets/Logotipo.png" alt="Mundo de Afetos" class="brand-logo" />
+
+          <div class="brand-text">
+            <span class="brand-title">MUNDO DE AFETOS</span>
+            <span class="brand-subtitle">de Teresa Antunes</span>
+          </div>
+        </a>
+
+        <nav class="menu">
+          <a href="index.html#sobre">Sobre Nós</a>
+          <a href="index.html#servicos">Serviços</a>
+          <a href="#contactos">Contactos</a>
+        </nav>
+
+        <div class="hamburger" onclick="openMenu()">
+          ☰
+        </div>
+      </div>
+    </header>
+
+    <main class="legal-page">
+      <section class="legal-hero">
+        <h1>Política de Privacidade</h1>
+      </section>
+
+      <section class="legal-content">
+        <p>
+          A presente Política de Privacidade descreve como o <strong>Mundo de Afetos</strong>, recolhe, utiliza e
+          protege os dados pessoais dos utilizadores que visitam este website, em conformidade com o Regulamento Geral
+          sobre a Proteção de Dados (RGPD).
+        </p>
+
+        <h2>1. Responsável pelo Tratamento de Dados</h2>
+        <p>
+          Mundo de Afetos<br />
+          Titular: Teresa Antunes<br />
+          Localização: Alpiarça, Santarém, Portugal<br />
+          Email: mundodeafetos@hotmail.com
+        </p>
+
+        <h2>2. Dados Pessoais Recolhidos</h2>
+        <p>
+          Este website não recolhe dados pessoais através de formulários ou sistemas de pagamento. Qualquer contacto é
+          realizado por meios externos ao website (telefone ou email).
+        </p>
+
+        <h2>3. Finalidade do Tratamento</h2>
+        <p>
+          Os dados eventualmente fornecidos pelo utilizador através de contacto direto são utilizados exclusivamente
+          para responder a pedidos de informação sobre os serviços prestados.
+        </p>
+
+        <h2>4. Conservação dos Dados</h2>
+        <p>
+          Os dados pessoais são conservados apenas pelo período necessário para a finalidade para a qual foram
+          recolhidos, não sendo utilizados para outros fins.
+        </p>
+
+        <h2>5. Partilha de Dados</h2>
+        <p>O Mundo de Afetos não partilha, vende ou cede dados pessoais a terceiros.</p>
+
+        <h2>6. Direitos do Utilizador</h2>
+        <p>
+          O utilizador tem o direito de solicitar o acesso, retificação ou eliminação dos seus dados pessoais, bem como
+          limitar ou opor-se ao seu tratamento, nos termos da legislação em vigor.
+        </p>
+
+        <h2>7. Cookies</h2>
+        <p>
+          Este website utiliza apenas cookies técnicos essenciais para o seu funcionamento, não recolhendo informações
+          pessoais ou de rastreamento.
+        </p>
+
+        <h2>8. Alterações à Política de Privacidade</h2>
+        <p>
+          O Mundo de Afetos reserva-se o direito de atualizar esta Política de Privacidade sempre que necessário.
+          Recomenda-se a consulta periódica desta página.
+        </p>
+
+        <h2>9. Contactos</h2>
+        <p>
+          Para qualquer questão relacionada com esta Política de Privacidade, poderá contactar através do email:
+          <a href="mailto:mundodeafetos@hotmail.com">mundodeafetos@hotmail.com</a>
+        </p>
+      </section>
+    </main>
+
+    <footer id="contactos" class="site-footer">
+      <div class="footer-container">
+        <!-- contactos -->
+        <div class="footer-col">
+          <h4>CONTACTOS</h4>
+          <p>
+            +356 966 525 526<br />
+            mundodeafetos@hotmail.com<br />
+            Rua x de x, Alpiarça<br />
+            Santarém, Portugal
+          </p>
+
+          <div class="footer-socials">
+            <a href="#" aria-label="Facebook">
+              <img src="assets/icons/icon_FACEBOOK.png" alt="Facebook" />
+            </a>
+            <a href="#" aria-label="Instagram">
+              <img src="assets/icons/icon_INSTAGRAM.png" alt="Instagram" />
+            </a>
+          </div>
+        </div>
+
+        <!-- nav -->
+        <div class="footer-col">
+          <ul>
+            <li><a href="index.html#top">Página Inicial</a></li>
+            <li><a href="index.html#sobre">Sobre Nós</a></li>
+            <li><a href="index.html#servicos">Serviços</a></li>
+            <li><a href="#contactos">Contactos</a></li>
+          </ul>
+        </div>
+
+        <!-- legal -->
+        <div class="footer-col">
+          <ul class="footer-legal">
+            <li><a href="politica-privacidade.html">Políticas de Privacidade</a></li>
+            <li>
+              <br />
+              <a href="https://www.livroreclamacoes.pt/Inicio/" target="_blank" rel="noopener">
+                Livro de Reclamações
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- info -->
+      <div class="footer-bottom">
+        <p>
+          © 2025 Mundo de Afetos. Todos os direitos reservados.<br />
+          Website desenvolvido por ferrodesign.
+        </p>
+      </div>
+    </footer>
+
+    <div id="sideMenu" class="side-menu">
+      <div class="close-btn" onclick="closeMenu()">✕</div>
+
+      <a href="index.html#sobre" onclick="closeMenu()">Sobre Nós</a>
+      <a href="index.html#servicos" onclick="closeMenu()">Serviços</a>
+      <a href="#contactos" onclick="closeMenu()">Contactos</a>
+    </div>
+
+    <script>
+      function openMenu() {
+        document.getElementById("sideMenu").style.right = "0";
+      }
+
+      function closeMenu() {
+        document.getElementById("sideMenu").style.right = "-300px";
+      }
+    </script>
+  </body>
+</html>

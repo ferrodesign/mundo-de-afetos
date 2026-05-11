@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mundo de Afetos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="top"></div>
+
+    <!-- topbar -->
+    <header class="topbar">
+      <div class="container">
+        <a href="#top" class="brand">
+          <img src="assets/Logotipo.png" alt="Mundo de Afetos" class="brand-logo" />
+
+          <div class="brand-text">
+            <span class="brand-title">MUNDO DE AFETOS</span>
+            <span class="brand-subtitle">de Teresa Antunes</span>
+          </div>
+        </a>
+
+        <nav class="menu">
+          <a href="#sobre">Sobre Nós</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#contactos">Contactos</a>
+        </nav>
+
+        <div class="hamburger" onclick="openMenu()">
+          ☰
+        </div>
+      </div>
+    </header>
+
+    <!-- hero -->
+    <section class="hero">
+      <div class="overlay"></div>
+
+      <div class="hero-content">
+        <img src="assets/Logotipo Alternativo.png" alt="Mundo de Afetos" class="hero-logo" />
+        <h1>
+          CUIDAR COM CARINHO<br />
+          SERVIR COM AMOR
+        </h1>
+      </div>
+    </section>
+
+    <!-- about -->
+    <section id="sobre" class="about">
+      <div class="about-container">
+        <div class="about-text">
+          <h2>SOBRE NÓS</h2>
+          <p>
+            No Mundo de Afetos, acreditamos que cada pessoa merece viver com dignidade, conforto e segurança no seu
+            próprio lar, independentemente das suas condições de saúde ou limitações físicas. Oferecemos um serviço
+            personalizado, pensado para responder às necessidades específicas de cada cliente. Com mais de 25 anos de
+            experiência na área da geriatria, o nosso compromisso é proporcionar conforto, segurança e bem-estar,
+            assegurando um acompanhamento humano, digno e de qualidade, para que cada pessoa possa continuar a viver no
+            seu espaço com tranquilidade.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicos" class="services-section">
+      <h2 class="section-title">OS NOSSOS SERVIÇOS</h2>
+
+      <div class="services-grid">
+        <!-- serv1 -->
+        <div class="service-item">
+          <div class="service-image">
+            <img src="assets/images/higiene.jpg" alt="Serviço 1" />
+          </div>
+
+          <div class="service-content">
+            <img src="assets/icons/icon_HIGIENE.png" alt="" class="service-icon" />
+            <h3>Higiene Pessoal</h3>
+            <p>Apoio nos cuidados de higiene diária, garantindo conforto, dignidade e bem-estar em todas as rotinas.</p>
+          </div>
+        </div>
+
+        <!-- serv2 (invertido) -->
+        <div class="service-item reverse">
+          <div class="service-image">
+            <img src="assets/images/comida.jpg" alt="Serviço 2" />
+          </div>
+
+          <div class="service-content">
+            <img src="assets/icons/icon_REFEICOES.png" alt="" class="service-icon" />
+            <h3>Refeições e Apoio no Lar</h3>
+            <p>Preparação de refeições e realização de tarefas domésticas essenciais para o dia a dia.</p>
+          </div>
+        </div>
+
+        <!-- serv3 -->
+        <div class="service-item">
+          <div class="service-image">
+            <img src="assets/images/medicacao.jpg" alt="Serviço 3" />
+          </div>
+
+          <div class="service-content">
+            <img src="assets/icons/icon_MEDICACAO.png" alt="" class="service-icon" />
+            <h3>Gestão de Medicação</h3>
+            <p>Administração de medicação de acordo com prescrição médica, assegurando rigor e segurança.</p>
+          </div>
+        </div>
+
+        <!-- serv4 (invertido) -->
+        <div class="service-item reverse">
+          <div class="service-image">
+            <img src="assets/images/consulta.jpg" alt="Serviço 2" />
+          </div>
+
+          <div class="service-content">
+            <img src="assets/icons/icon_CONSULTAS.png" alt="" class="service-icon" />
+            <h3>Acompanhamento a Consultas</h3>
+            <p>Apoio em deslocações a consultas, exames ou sessões de fisioterapia, com acompanhamento dedicado.</p>
+          </div>
+        </div>
+
+        <!-- serv5 -->
+        <div class="service-item">
+          <div class="service-image">
+            <img src="assets/images/compras.jpg" alt="Serviço 1" />
+          </div>
+
+          <div class="service-content">
+            <img src="assets/icons/icon_COMPRAS.png" alt="" class="service-icon" />
+            <h3>Compras e Serviços</h3>
+            <p>Realização de compras de bens essenciais, como produtos alimentares e/ou de farmácia.</p>
+          </div>
+        </div>
+
+        <!-- serv6 (invertido) -->
+        <div class="service-item reverse">
+          <div class="service-image">
+            <img src="assets/images/praia.jpg" alt="Serviço 2" />
+          </div>
+
+          <div class="service-content">
+            <img src="assets/icons/icon_LAZER.png" alt="" class="service-icon" />
+            <h3>Lazer e Passeios</h3>
+            <p>Acompanhamento em atividades de lazer, promovendo momentos de convívio e bem-estar.</p>
+          </div>
+        </div>
+
+        <!-- serv7 -->
+        <div class="service-item">
+          <div class="service-image">
+            <img src="assets/images/botao_panico.jpg" alt="Serviço 3" />
+          </div>
+
+          <div class="service-content">
+            <img src="assets/icons/icon_24H.png" alt="" class="service-icon" />
+            <h3>Apoio 24h</h3>
+            <p>Apoio contínuo diurno e noturno, com possibilidade de assistência imediata através de botão de pânico.</p>
+          </div>
+        </div>
+
+        <!-- serv8 (invertido) -->
+        <div class="service-item reverse">
+          <div class="service-image">
+            <img src="assets/images/enfermagem.jpg" alt="Serviço 2" />
+          </div>
+
+          <div class="service-content">
+            <img src="assets/icons/icon_ENFERMAGEM.png" alt="" class="service-icon" />
+            <h3>Cuidados de Enfermagem</h3>
+            <p>
+              Prestação de cuidados de enfermagem por profissionais qualificados, assegurando acompanhamento clínico
+              adequado.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- footer -->
+    <footer id="contactos" class="site-footer">
+      <div class="footer-container">
+        <!-- contactos -->
+        <div class="footer-col">
+          <h4>CONTACTOS</h4>
+          <p>
+            +356 966 525 526<br />
+            mundodeafetos@hotmail.com<br />
+            Alpiarça, Santarém, Portugal
+          </p>
+
+          <div class="footer-socials">
+            <a href="#" aria-label="Facebook">
+              <img src="assets/icons/icon_FACEBOOK.png" alt="Facebook" />
+            </a>
+            <a href="#" aria-label="Instagram">
+              <img src="assets/icons/icon_INSTAGRAM.png" alt="Instagram" />
+            </a>
+          </div>
+        </div>
+
+        <!-- nav -->
+        <div class="footer-col">
+          <ul>
+            <li><a href="#top">Página Inicial</a></li>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#contactos">Contactos</a></li>
+          </ul>
+        </div>
+
+        <!-- legal -->
+        <div class="footer-col">
+          <ul class="footer-legal">
+            <li><a href="politica-privacidade.html">Política de Privacidade</a></li>
+            <li>
+              <br />
+              <a href="https://www.livroreclamacoes.pt/Inicio/" target="_blank" rel="noopener">
+                Livro de Reclamações
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- info -->
+      <div class="footer-bottom">
+        <p>© 2025 Mundo de Afetos. Todos os direitos reservados.<br /></p>
+      </div>
+    </footer>
+    
+    <div id="sideMenu" class="side-menu">
+      <div class="close-btn" onclick="closeMenu()">✕</div>
+
+      <a href="#sobre" onclick="closeMenu()">Sobre Nós</a>
+      <a href="#servicos" onclick="closeMenu()">Serviços</a>
+      <a href="#contactos" onclick="closeMenu()">Contactos</a>
+    </div>
+    
+    <script>
+      function openMenu() {
+        document.getElementById("sideMenu").style.right = "0";
+      }
+
+      function closeMenu() {
+        document.getElementById("sideMenu").style.right = "-300px";
+      }
+    </script>
+  </body>
+</html>
